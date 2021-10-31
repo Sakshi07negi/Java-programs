@@ -1,10 +1,16 @@
+import java.util.Scanner;
 
-class code2{
-static{
-  System.out.println("Hello world");
-  int a=10;
-  int b=20;
-  int sum =a+b;
-  System.out.println("sum of the two number is:- ",sum);
-}
+public class Inputfunctions {
+  
+  public static void main(String[] args) {
+   Scanner readme = new Scanner(System.in);
+   System.out.println("Enter Two Numbers (Press Enter after each):");
+   
+   double n1, n2, n3;
+   n1 = readme.nextDouble();
+   n2 = readme.nextDouble();
+   n3 = n1 + n2;
+    
+   System.out.println("Total = " + n3);
+  }
 }
